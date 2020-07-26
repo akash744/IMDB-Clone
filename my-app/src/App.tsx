@@ -21,7 +21,7 @@ const useStyles = makeStyles((theme: Theme) =>
 
 function App() {
 
-  const apiURL = "http://www.omdbapi.com/?i=tt3896198&apikey=258ffabf";
+  const apiURL = "https://www.omdbapi.com/?i=tt3896198&apikey=258ffabf";
   const [state, setState] = useState({
     s : "",
     results: [],
