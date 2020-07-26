@@ -1,13 +1,91 @@
-body {
+*{
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body {
+  font-family: Roboto,Helvetica,Arial,sans-serif;
+  background-color: black;
 }
+
+header {
+  padding: 70px 25px 0px;
+}
+
+header h1 {
+  color: #f5c518;
+  font-size: 50px;
+  font-weight: bold;
+  text-align: center;
+}
+
+main {
+  width: 100%;
+  max-width: 1250px;
+  margin: 0 auto;
+}
+
+section {
+  padding: 20px;
+}
+
+h3 {
+  color: #f5c518;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 15px;
+  background: #1a1a1a;;
+  text-align: center;
+  transition: 1s ease-out;
+}
+
+#type {
+  text-transform: uppercase;
+}
+
+.search-box {
+  width: 100%;
+  display: block;
+  padding: 15px;
+  border: none;
+  outline: none;
+  background: none;
+  background-color: white;
+  border-radius: 8px;
+  color: gray;
+  font-size: 20px;
+  font-weight: 300px;
+  transition: 0.1s ease-out;
+}
+
+.search-box:focus {
+  box-shadow: 0px  0px 10px 5px #f5c518;
+}
+
+.results-section .result-class:hover h3 {
+    background: #FFF;
+    color: #223343;
+}
+
+.results-section {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0px -20px;
+
+}
+
+.results-section .result-class {
+  width: 33%;
+  display: flex;
+  min-width: 300px;
+  cursor: pointer;
+  padding: 15px;
+  flex-direction: column;
+}
+
+.results-section .result-class img{
+  display: block;
+  width: 100%;
+}
+
