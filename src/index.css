@@ -13,6 +13,12 @@ header {
   padding: 70px 25px 0px;
 }
 
+.modal-button{
+  position: relative;
+  left: 40px; 
+  top: 40px;
+}
+
 header h1 {
   color: #f5c518;
   font-size: 50px;
