@@ -1,5 +1,7 @@
 # IMDB-Clone
 
+## Website no longer active since Azure Subscription Expired to view the project clone the repo and run npm install and npm start.
+
 # Description of Project
 
 ## Web App
